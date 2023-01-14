@@ -1,0 +1,9 @@
+sys包下为门禁系统的操作,Computer类实现门禁的3种方式的验证功能，ControSys类实现门的开关，Door类声明为一个枚举类，只需实现close和和open就行，InputEquip类为一个输入设备类，
+主要是为了Employee类的验证。
+
+test包下为3种类型的测试
+
+user包下为3种不同的用户，分别为访客，管理员和员工，访客中有按门铃方法，Emloyee类中则有输入方法，Admin类中为管理，管理是否给访客开门，并管理3种用户
+
+validate包下为验证方式，Validate接口为了提供check方法，GenericValidate为Validate接口的实现类，其他3种继承GenericValidate类分别实现卡用户验证，指纹用户验证以及密码用户验证
+
